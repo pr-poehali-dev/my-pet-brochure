@@ -341,11 +341,19 @@
   border-radius: 2px;
 }
 
-/* ===== FOOTER ===== */
-.card-footer {
-  text-align: center;
+/* ===== BROCHURE TEXT ===== */
+.brochure-text {
+  background: #fffdf5;
+  border: 2px dashed #c8a86b;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+}
+.brochure-text p {
   font-family: "Caveat", cursive;
-  font-size: 16px;
-  color: #b07a30;
-  padding-top: 4px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #3a2e1e;
+  line-height: 1.6;
+  text-align: center;
 }
